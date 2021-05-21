@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:LibraryOfTitles"
         mc:Ignorable="d"
         DataContext="{Binding MainWindowModel,Source={StaticResource Locator}}"
-        Title="{Binding Title}" Height="450" Width="800">
+        Title="{Binding Title}" Height="450" Width="800" 
+        Style="{StaticResource CustomWindowStyle}">
     <Grid>
         
     </Grid>
